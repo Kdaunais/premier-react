@@ -1,0 +1,13 @@
+.team_container { 
+    background-color: #eee; padding: 80px 0;
+}
+
+.team_grid { 
+    display: grid; grid-template-columns: repeat(3,1fr); gap: 30px; 
+    max-width: 1440px;
+    margin: 0 auto;
+
+    img{
+        width: 100%;
+    }
+}
