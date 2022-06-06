@@ -3,7 +3,6 @@ import {Link} from 'react-router-dom'
 import React, {useState, useEffect} from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons'
-import { Button } from '../button/Button'
 
 function Navbar() {
 
@@ -59,7 +58,6 @@ function Navbar() {
                             </Link>
                         </li>
                     </ul>
-                    {button && <Button buttonStyle='btn--outline'>Sign Up</Button>}
                 </div>
             </nav>
         </>

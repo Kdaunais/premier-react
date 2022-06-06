@@ -1,5 +1,5 @@
-import './About.scss'
 import React from 'react'
+import './About.scss'
 
 function About_block() {
     return (
