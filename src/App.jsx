@@ -1,20 +1,15 @@
 import React from 'react';
 import './App.css';
-import Navbar from './components/navbar/Navbar';
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
-import Home from "./components/pages/Home";
+import Header from './components/header/Header';
+import About from './components/pages/About';
+
 
 function App() {
   return (
-    <>
-    <Router>
-      <Navbar />
-      <Routes>
-          <Route path="/signin" element={<Home />} />
-          <Route path="/" element={<Home />} />
-      </Routes>
-    </Router>
-    </>
+    <div className='page-wrapper'>
+      <Header></Header>
+      <About/>
+    </div>
   );
 }
 

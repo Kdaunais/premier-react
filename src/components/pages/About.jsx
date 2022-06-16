@@ -5,8 +5,7 @@ import About_block from './blocks/about_block/About_block'
 function About() {
     return (
         <>
-            <Header />
-            <About />
+            <About_block />
         </>
     )
 }

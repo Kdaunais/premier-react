@@ -1,0 +1,8 @@
+.star-container{
+    height: calc(100vh - 80px); width: fit-content; position: fixed; bottom: 0; bottom: 0; right: 0; transform: translate(50%);
+
+    img { display: block; height:100%; width: 100%; transition: ease 0.3s; }
+    
+}
+
+body{ overflow-x: hidden;}
